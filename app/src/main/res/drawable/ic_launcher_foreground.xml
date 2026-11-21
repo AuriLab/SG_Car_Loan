@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ground Shadow -->
+    <path
+        android:pathData="M18,80 C18,75 90,75 90,80 C90,83 18,83 18,80 Z"
+        android:fillColor="#600A0514" />
+
+    <!-- Car Main Body Silhouette -->
+    <path android:pathData="M18,74 C16,67 18,60 25,56 C33,52 45,49 53,47 C65,37 77,38 85,46 C91,52 94,58 95,64 L93,71 C91,66 79,66 77,72 L49,74 C47,68 33,68 31,75 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="25"
+                android:startY="40"
+                android:endX="75"
+                android:endY="75"
+                android:type="linear">
+                <item android:color="#FFA56AC0" android:offset="0.0" />
+                <item android:color="#FF522A66" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass Roof & Windows -->
+    <path android:pathData="M52,48 C62,40 73,41 83,49 L73,53 C63,54 55,54 52,48 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="40"
+                android:endX="80"
+                android:endY="55"
+                android:type="linear">
+                <item android:color="#FF191423" android:offset="0.0" />
+                <item android:color="#FF372D4B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shoulder Line Highlight -->
+    <path
+        android:pathData="M25,56 C40,54 65,55 90,57"
+        android:strokeColor="#B0E6B9FA"
+        android:strokeWidth="0.8" />
+
+    <!-- Lower Bumper Black Aero Trim -->
+    <path
+        android:pathData="M18,74 L27,74 L28,72 L43,72 L44,73 L75,71 L76,70 L91,70 L92,72 L18,74 Z"
+        android:fillColor="#FF16121C" />
+
+    <!-- Headlight Assembly -->
+    <path
+        android:pathData="M24,57 L32,59 L33,63 L28,64 L26,61 Z"
+        android:fillColor="#FF1E232D" />
+
+    <!-- LED DRL Light Strips -->
+    <path
+        android:pathData="M25,58 L32,60 M32,60 L33,63"
+        android:strokeColor="#FFE6FAFF"
+        android:strokeWidth="1.0" />
+
+    <!-- License Plate "L03" -->
+    <path
+        android:pathData="M24,67 H35 V72 H24 Z"
+        android:fillColor="#FF0F0F12"
+        android:strokeColor="#FF50505A"
+        android:strokeWidth="0.5" />
+
+    <!-- Hood Emblem (Stylized X) -->
+    <path
+        android:pathData="M39,54 L41,55 L43,54"
+        android:strokeColor="#FFF0E6FA"
+        android:strokeWidth="0.6" />
+
+    <!-- Side Mirror -->
+    <path
+        android:pathData="M48,50 A2.5,1.5 0 1,1 52,50 A2.5,1.5 0 1,1 48,50"
+        android:fillColor="#FF191620" />
+
+    <!-- Wheels & Calipers -->
+    <!-- Front Wheel -->
+    <path
+        android:pathData="M31,74 A7,7 0 1,1 45,74 A7,7 0 1,1 31,74"
+        android:fillColor="#FF19191C" />
+    <path
+        android:pathData="M35,71 H39 V74 H35 Z"
+        android:fillColor="#FFF5D214" />
+    <path
+        android:pathData="M33,74 A5,5 0 1,1 43,74 A5,5 0 1,1 33,74"
+        android:fillColor="#FF232328"
+        android:strokeColor="#FFE0E5EA"
+        android:strokeWidth="0.8" />
+    <path
+        android:pathData="M38,74 L34,70 M38,74 L42,70 M38,74 L42,78 M38,74 L34,78"
+        android:strokeColor="#FFE0E5EA"
+        android:strokeWidth="0.6" />
+
+    <!-- Rear Wheel -->
+    <path
+        android:pathData="M77,72 A6,6 0 1,1 89,72 A6,6 0 1,1 77,72"
+        android:fillColor="#FF19191C" />
+    <path
+        android:pathData="M80,69 H84 V72 H80 Z"
+        android:fillColor="#FFF5D214" />
+    <path
+        android:pathData="M79,72 A4,4 0 1,1 87,72 A4,4 0 1,1 79,72"
+        android:fillColor="#FF232328"
+        android:strokeColor="#FFE0E5EA"
+        android:strokeWidth="0.8" />
+</vector>
